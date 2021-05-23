@@ -142,7 +142,6 @@ flush:
     movw $(gdt_data_segment - gdt_start), %ax
     movw %ax, %ds
     movw %ax, %es
-    movw %ax, %es
     movw %ax, %fs
     movw %ax, %gs
     movw %ax, %ss
